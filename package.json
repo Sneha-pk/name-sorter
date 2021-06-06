@@ -1,0 +1,16 @@
+{
+  "name": "glob",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "name-sorter": "node -e 'require(\"./script.js\").sort_names()'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.4.0"
+  }
+}
