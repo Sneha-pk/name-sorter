@@ -17,6 +17,6 @@ exports.sort_names = function() {
     });
     stream.end();
     });
-
+    console.log(unsorted_names);
     return unsorted_names; // return the sorted list of names to the screen.
 }
