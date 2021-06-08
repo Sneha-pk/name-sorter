@@ -5,7 +5,7 @@
   "main": "script.js",
   "scripts": {
     "test": "mocha --reporter spec",
-    "name-sorter": "node -e 'require(\"./script.js\").sort_names()'"
+    "start": "npm install && npm test"
   },
   "author": "",
   "license": "ISC",
