@@ -1,9 +1,4 @@
 cache: npm
 language: node_js
 node_js: node
-install: "npm ci"
-scripts: 
-  ? "npm run build"
-  : ~
-  ? "npm test"
-  : ~
+
