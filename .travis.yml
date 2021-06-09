@@ -1,8 +1,9 @@
 cache: npm
 language: node_js
 node_js: node
+install: "npm ci"
 scripts: 
-  ? "npm ci"
+  ? "npm run build"
   : ~
   ? "npm test"
   : ~
