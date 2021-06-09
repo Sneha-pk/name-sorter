@@ -1,7 +1,8 @@
 cache: npm
 language: node_js
 node_js: node
-
-scripts:
-    -npm ci
-    -npm test
+scripts: 
+  ? "npm ci"
+  : ~
+  ? "npm test"
+  : ~
